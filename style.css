@@ -30,19 +30,26 @@ body {
   background-color: #fff;
   margin: 30px auto;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 1px 4px 0px #34495e;
-  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0px 7px 7px 7px #e9e2d9;
+  max-width: 1200px; /* Cambiado de 1000px a 1200px */
 }
+
 
 /* Bloque principal */
 .bloque1 {
   background-color: #e67e22;
-  padding: 30px;
+  padding: 50px;
   border-radius: 5px;
   margin-bottom: 20px;
   text-align: center;
   color: white;
+  
+}
+.fila {
+  display: flex;
+  flex-direction: row;
+
 }
 
 .bloque2{
@@ -50,19 +57,25 @@ body {
     margin: 10px;
     padding: 30px;
     border-radius: 5px;
+    width: 500px;
+    text-align: center;
 }
+
+
 
 .bloque3{
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .bloque4{
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
+text-align: center;
     border-radius: 5px;
 }
 
