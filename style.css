@@ -18,6 +18,7 @@ body{
     background-color: #fff;
     margin: 10px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .banner h1{
@@ -30,22 +31,26 @@ body{
     background-color: #e67e22;
     margin: 10px;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .bloque2{
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .bloque3{
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .bloque4{
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
+    border-radius: 5px;
 }
