@@ -9,3 +9,9 @@ body{
     background-color: antiquewhite;
 }
 
+.banner{
+    display: flex;
+    color: #34495e;
+}
+
+
