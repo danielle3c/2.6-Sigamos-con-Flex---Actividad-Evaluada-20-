@@ -1,58 +1,63 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* asegura que todos los elementos tengan márgenes y padding consistentes y respeten el tamaño del box-sizing.*/
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: antiquewhite;
-  color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: #fff;
 }
+/*se asegura de que de las letra en blanco  backgroundcolor el fondo*/
 
 .banner {
-  background-color: #34495e;
-  text-align: center;
-  padding: 20px;
+    background-color: #34495e;
+    text-align: center;
+    padding: 20px;
 }
-
+/*en el banner se puso colo de fondo un azul centramos el texto se puso un padding*/
 .banner h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
+/*se le puso un tamaño de letra y un margen inferior*/
 
 .banner h5 {
-  font-weight: normal;
+    font-weight: normal;
 }
+/*se le quito el peso de la letra*/
 
-/* Contenedor general */
+
 .pag {
-  background-color: #fff;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 7px 7px 7px #e9e2d9;
-  max-width: 1200px; /* Cambiado de 1000px a 1200px */
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px 7px #e9e2d9;
+    max-width: 1200px;
 }
+/*se le puso un color de fondo blanco, un margen de 30px, un padding de 20px, un borde redondeado de 10px, una sombra y un max-width de 1200px*/
 
 
-/* Bloque principal */
+
 .bloque1 {
-  background-color: #e67e22;
-  padding: 50px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  text-align: center;
-  color: white;
-  
+    background-color: #e67e22;
+    padding: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
+/*se puso coloral fondo se pone redoddo el borde se centran el el texto pne color de las letras blanco  establece el margen inferior de un elemento. */
+
 .fila {
-  display: flex;
-  flex-direction: row;
-
+    display: flex;
+    flex-direction: row;
 }
-
-.bloque2{
+/*se pone la fila en flex para que se acomoden los elementos en fila*/
+.bloque2 {
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
@@ -63,7 +68,7 @@ body {
 
 
 
-.bloque3{
+.bloque3 {
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
@@ -71,12 +76,11 @@ body {
     text-align: center;
 }
 
-.bloque4{
+.bloque4 {
     background-color: #d35400;
     margin: 10px;
     padding: 30px;
-text-align: center;
+    text-align: center;
     border-radius: 5px;
 }
-
-
+/*se puso coloral fondo se pone redoddo el borde se centran el el texto pne color de las letras blanco  establece el margen inferior de un elemento.  en el bloque 2 al 4*/
